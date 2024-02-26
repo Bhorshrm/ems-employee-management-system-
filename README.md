@@ -7,7 +7,9 @@ user interface for interacting with employee data and should
 leverage the Spring MVC framework for the backend, JSP for
 templating, JavaScript/jQuery for client-side logic, and
 Syncfusion components for enhanced UI elements.
+
 Requirements:
+
 Backend:
 • Use Spring MVC to create RESTful APIs for
 handling CRUD operations on employee data.
@@ -17,6 +19,7 @@ like H2 for simplicity.
 • Include basic authentication to protect the
 application. Use Spring Security to manage login
 functionality.
+
 Frontend:
 • Use JSP for server-side rendering of the frontend.
 Employ JSTL (JavaServer Pages Standard Tag
@@ -47,6 +50,7 @@ access to authenticated users only.
 
 Deliverables:
 
+
 Source Code: Provide a GitHub repository link containing the
 complete source code.
 • Documentation: Include a README file with:
@@ -56,6 +60,7 @@ complete source code.
 Demo: (Optional) Host a live demo of the application on
 platforms like Heroku or provide a video demo
 showcasing its functionality.
+
 
 Evaluation Criteria:
 • Code Quality: Clean, modular, and well-documented
@@ -67,6 +72,7 @@ intuitive and responsive user interface.
 MVC, JSP, JavaScript/jQuery, and Syncfusion.
 • Creativity: Any additional features or enhancements that
 improve user experience or application performance.
+
 This assignment is designed to be comprehensive, covering
 various aspects of full-stack development, and should
 provide a good basis for evaluating a candidate's skills across
