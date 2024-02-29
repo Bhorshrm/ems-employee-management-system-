@@ -4,7 +4,10 @@ import com.example.ems.DTO.EmployeeDTO;
 import com.example.ems.model.Employee;
 import com.example.ems.repository.EmployeeRepository;
 import com.example.ems.Mappers.EmployeetoDTO;
-public class EmployeeServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService{
     EmployeeRepository er;
     EmployeetoDTO edto;
     public EmployeeDTO getEmployeeById(String empId){
